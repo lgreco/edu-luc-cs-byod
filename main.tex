@@ -9,7 +9,11 @@
 \begin{document}
 \maketitle
 
-    \input{contents/030-dept-preable.tex}
+% Opening page for CS colleagues no need to line-number it.
+\input{contents/030-dept-preable.tex}
+
+\begin{linenumbers}
+    
     \input{contents/100-opening}
     \input{contents/200-qualified-devices}
     \input{contents/300-usage}
@@ -17,5 +21,7 @@
     \input{contents/500-absolutely-not}
     
     \include{contents/900-byod-faq} % \include forces \newpage
+
+\end{linenumbers}
 
 \end{document}
