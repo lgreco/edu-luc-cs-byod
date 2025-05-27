@@ -1,0 +1,21 @@
+% Using the texMemo package by Rob Oakes
+% \memocc field added to the package by Leo Irakliotis
+\documentclass[letter,11pt]{contents/teXMemo} 
+
+% Content files are prefixed with numbers for easy listing.
+\input{contents/010-use-packages}
+\input{contents/020-header}
+
+\begin{document}
+\maketitle
+
+    \input{contents/100-opening}
+    \input{contents/200-qualified-devices}
+    \input{contents/300-usage}
+    \input{contents/400-recommended-systems}
+    \input{contents/500-absolutely-not}
+    
+
+    \include{contents/900-byod-faq} % \include forces \newpage
+
+\end{document}
